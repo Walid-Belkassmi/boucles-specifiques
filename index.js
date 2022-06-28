@@ -146,3 +146,13 @@
 //     })
 //     console.log(row)
 // })
+
+// 09
+
+const array = [1, "toto", 34, "JavaScript", 8, -2]
+
+const numbers = array.filter((number) => {
+    return(number > 0 || number < 0)
+})
+
+console.log(numbers)
