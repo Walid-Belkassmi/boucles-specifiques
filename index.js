@@ -121,3 +121,28 @@
 
 // console.log(pie)
 
+// 07
+
+// const arrayNumbers = [1,2,3,4,5,6,7,8,9]
+// let result = 1
+// arrayNumbers.forEach((number) => {
+//     result *= number
+// })
+
+// console.log(result)
+
+// 08
+// let boxes = [0,1,2,3,4,5,6,7]
+
+// boxes.forEach((box, index) => {
+//     let row = ""
+    
+//     boxes.forEach((indexLine) => {
+//         if((indexLine + index) % 2 === 0){
+//             row += "[ ]"
+//         }else{
+//             row += "[X]"
+//         }
+//     })
+//     console.log(row)
+// })
